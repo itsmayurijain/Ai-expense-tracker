@@ -19,7 +19,7 @@ export const Header = () => {
         {isSignedIn?
         <UserButton/> : 
         <Link href={'/sign-in'}>
-         <Button>Get started</Button>
+         <Button className='bg-black'>Get started</Button>
          </Link>
         }
        
