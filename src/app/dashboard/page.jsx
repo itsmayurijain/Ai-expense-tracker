@@ -1,9 +1,12 @@
+import { UserButton } from '@clerk/nextjs';
 import React from 'react'
 
-export const page = () => {
+export const Page = () => {
   return (
-    <div>
-        
+    <div>User
+      <UserButton/>
     </div>
   )
 }
+
+export default Page;
